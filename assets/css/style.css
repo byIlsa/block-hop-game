@@ -12,7 +12,7 @@ body {
     transform: translate(-50%, -50%);
 }
 #game {
-    width: 80vw;
+    width: 60vw;
     height: 200px;
     border: 2px solid black;
     background-color: white;
@@ -25,6 +25,7 @@ body {
     background-color: red;
     position: relative;
     top: 150px;
+    box-shadow: 3px 3px aquamarine;
 }
 .animate{
     animation: jump 500ms;
@@ -41,13 +42,13 @@ body {
     background-color: blue;
     position: relative;
     top: 120px;
-    right: 100vw;
+    right: 80vw;
     animation: block 3s infinite linear;
     
 }
 
 @keyframes block{
-    0%{left: 100vw;}
+    0%{left: 60vw;}
     100%{left: -40px;}
 
 }
